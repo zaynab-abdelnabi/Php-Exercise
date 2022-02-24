@@ -5,6 +5,8 @@ echo "Hello Sir, do you have " . $grocery[0] . ", " . $grocery[1] . ", and " . $
 
 $grocery1 = ["Eggs" => ['balade', 'mazare3'], "Milk" => ['Fresh', 'Taanayel'], "water-pack" => ['Tanoureen' ,'Reem']];
 
-echo "Hey Sir, Please I need 1 pack of ".$grocery1["Eggs"][0]." eggs and 3 ".$grocery1["water-pack"][1] ." Water Pack.\n"
+echo "Hey Sir, Please I need 1 pack of ".$grocery1["Eggs"][0]." eggs and 3 ".$grocery1["water-pack"][1] ." Water Pack.\n";
+
+echo "Hey Sir, Please I need 1 pack of ".$grocery1["Eggs"][0]." ".$grocery[0]." and 3 ".$grocery1["water-pack"][1] ." ".$grocery[3]."\n";
 
 ?>
