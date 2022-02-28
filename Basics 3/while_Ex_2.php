@@ -1,8 +1,11 @@
 <?php
     function factorial($n){
-        if($n <=1) {
-            return 1;
+        $x=$n;
+        $product=1;
+        while($x>=1){
+            $product *= $x;
+            $x--;
         }
-        return  $n *factorial($n-1);
+        return $product;
     }
-    echo factorial(4);
+echo factorial(4);
